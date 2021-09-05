@@ -15,11 +15,11 @@ export function Portfolio() {
              <section id="section-4">
         <div className="bg-light pricing py-5">
            
-                <Container>
+                <Container fluid="xs">
                 <header className="display-6 fw-bolder">Portfolio</header>
                 <hr />
                     <Row>
-                        <Col md={4}>
+                        <Col xs={4}>
                             <Card className="card h-100" bg='dark' hover="true">
                                 <Card.Body>
                                     <Card.Title>
@@ -38,7 +38,7 @@ export function Portfolio() {
                                     </Card.Footer>
                             </Card>
                         </Col>
-                        <Col md={4}>
+                        <Col xs={4}>
                             <Card className="card h-100" bg="dark" hover="true">
                                 <Card.Body>
                                     <Card.Title>
@@ -55,7 +55,7 @@ export function Portfolio() {
                                     </Card.Footer>
                             </Card>
                         </Col>
-                        <Col md={4}>
+                        <Col xs={4}>
                             <Card className="card h-100" bg="dark" hover="true">
                                 <Card.Body>
                                     <Card.Title>
@@ -75,8 +75,8 @@ export function Portfolio() {
                     </Row>
                         <br />
                     <Row>
-                        <Col md={2}></Col>
-                    <Col md={4}>
+                        <Col xs={2}></Col>
+                    <Col xs={4}>
                             <Card className="card h-100" bg="dark" hover="true">
                                 <Card.Body>
                                     <Card.Title>
@@ -94,7 +94,7 @@ export function Portfolio() {
                             </Card>
                         </Col>
                         {/* <Col md={1}></Col> */}
-                        <Col md={4}>
+                        <Col xs={4}>
                             <Card className="card h-100" bg="dark" hover="true">
                                 <Card.Body>
                                     <Card.Title>
@@ -111,7 +111,7 @@ export function Portfolio() {
                                     </Card.Footer>
                             </Card>
                         </Col>
-                        <Col md={2}></Col>
+                        <Col xs={2}></Col>
                     </Row>
                 </Container>
             
