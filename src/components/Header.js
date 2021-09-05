@@ -11,7 +11,7 @@ export function Header() {
         <div>
             <section id="section-1">
              <Navbar fixed="top" bg="light" expand="lg">
-                <Container>
+                <Container fluid="xs">
                     <Navbar.Brand href="#section-1">Suparnan Vijayaragavan</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
