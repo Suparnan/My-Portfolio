@@ -7,14 +7,15 @@ import { Portfolio } from './Portfolio.js';
 
 export function Skills() {
     return (
+        <main>
         <div className="bg-dark main-1 py-3">
             <section id="section-3">
             {/* <div className="main"> */}
-                <Container className="con">
+                <Container fluid="xs" className="con-1">
                 <header className="display-6 fw-bolder text-white hl">My Skills</header>
                 <br />
                 <Row>
-                    <Col md={6} className="vl-light">
+                    <Col xs={6} className="vl-light">
                         <p className="display-7 ml fw-bolder text-white">HTML5 :</p>
                         <ProgressBar animated striped variant="success" now={85} />
                         <br />
@@ -29,7 +30,7 @@ export function Skills() {
                         <br />
                     </Col>
                 
-                    <Col md={6}>
+                    <Col xs={6}>
                         <p className="display-7 ml fw-bolder text-white">Node JS :</p>
                         <ProgressBar animated striped variant="warning" now={75} />
                         <br />
@@ -46,7 +47,8 @@ export function Skills() {
             {/* </div> */}
             </section>
             {/* <br /> */}
-            <Portfolio />
         </div>
+        <Portfolio />
+        </main>
     )
 }
