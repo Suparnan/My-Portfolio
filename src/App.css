@@ -95,6 +95,7 @@
   height:30rem;
 }
 
+
 @media screen and (min-width: 310px) and (max-width: 375px) {
   .main-about {
     height: 150vh;
