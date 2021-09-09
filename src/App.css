@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  height: 100vh;
+}
+
+.main-about {
+  height: 100vh;
+}
+
+.main-skill {
+  padding-top: 65px;
+  height: 650px;
+}
+
+.con {
+  padding-top: 160px;
+}
+
+.con-about {
+  padding-top: 160px;
+}
+
+.con-1 {
+  padding-top: 65px;
+}
+
+.vl {
+  border-right: thin solid black;
+}
+
+.hl {
+  border-bottom: thick solid lightseagreen;
+}
+
+.vl-light {
+  border-right: thick solid lightseagreen;
+}
+
+.ml {
+  margin-right: 28rem;
+}
+
+.ml-1 {
+  margin-right: 20rem;
+}
+
+.disabled {
+  color: grey;
+}
+
+.hr {
+  color: white;
+}
+
+.card {
+  width:22rem;
+  height:30rem;
+}
+
+
+@media only screen and (max-width: 320px) {
+  .main-about {
+    height: 150vh;
+    
+  }
+
+  .main-skill {
+    padding-top: 65px;
+    height: 650px;
+  }
+
+  .main-contact {
+    height: 150vh;
+  }
+
+  .row-skill {
+    justify-content: center;
+  }
+
+  .ml {
+    margin-right: 5px;
+  }
+
+  .vl {
+    border: none;
+  }
+
+  .con-about {
+    padding-top: 35px;
+  }
+
+  .row-about {
+    justify-content: center;
+  }
+
+  .card {
+    width:15rem;
+    height:38rem;
+    justify-content: center;
+  }
+
+}
